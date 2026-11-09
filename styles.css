@@ -1,1 +1,53 @@
 /*  your css code here. If applicable */
+ body {
+            background-color: rgb(204, 204, 204);
+            font-family: Arial, sans-serif;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        ul {
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 30px 20px;
+            height: 180px;
+        }
+
+        li {
+            list-style-type: none;
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration-line: none;
+            color: black;
+            font-size: 20px;
+        }
+
+        .player_one {
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid black;
+            width: 80%;
+            margin: 25px auto;
+        }
+
+        .player_two {
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            margin: 25px auto;
+        }
+
+        video {
+            width: 100%;
+        }
+
+        audio {
+            width: 100%;
+        }
